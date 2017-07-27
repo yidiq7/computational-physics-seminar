@@ -13,7 +13,7 @@ while len(prime_list) < index:
       break
   else:
     prime_list.append(number)
-  number = number + 1
+  number += 1
 
 print prime_list[index-1]
   
