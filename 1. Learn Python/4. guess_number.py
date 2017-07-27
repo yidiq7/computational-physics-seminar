@@ -36,7 +36,7 @@ def guess_number_automatically(ntimes):
       elif x < x_guess:
         upper_bound = x_guess
       x_guess = (lower_bound + upper_bound)/2
-    i = i + 1
+    i += 1
   return right_times
       
 
