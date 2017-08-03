@@ -188,7 +188,7 @@ if __name__ == "__main__":
   char_position = [1, 1]
   boundary = (5, 5)
   map_exit = [randint(2, boundary[0]), randint(2, boundary[1])]
-  print map_exit
+  #print map_exit
   getch = _Getch()
   welcome()
   while True:
